@@ -17,12 +17,19 @@ return require('packer').startup(function(use)
 
   -- User plugins
   use({
-    'rose-pine/neovim',
-    as = 'rose-pine',
+    'ellisonleao/gruvbox.nvim',
+    as = 'gruvbox',
     config = function()
-      vim.cmd('colorscheme rose-pine')
+      vim.cmd('colorscheme gruvbox')
     end
   })
+  -- use({
+  --   'rose-pine/neovim',
+  --   as = 'rose-pine',
+  --   config = function()
+  --     vim.cmd('colorscheme rose-pine')
+  --   end
+  -- })
 
   use('nvim-lualine/lualine.nvim')
 
@@ -40,7 +47,7 @@ return require('packer').startup(function(use)
   }
 
   use {
-    'nvim-telescope/telescope.nvim', tag = '0.1.0',
+    'nvim-telescope/telescope.nvim', tag = '0.1.4',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
 

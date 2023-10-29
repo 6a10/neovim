@@ -13,7 +13,7 @@ vim.opt.shiftround = true
 vim.opt.expandtab = true
 vim.opt.clipboard = "unnamedplus"
 
-vim.cmd('colorscheme rose-pine')
+vim.cmd('colorscheme gruvbox')
 vim.o.background = "dark"
 vim.cmd('set relativenumber')
 
