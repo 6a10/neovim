@@ -2,6 +2,12 @@
 
 ## Require
 
+### fd
+[source](https://github.com/sharkdp/fd)
+```sh
+dnf install fd-find
+```
+
 ### ripgrep
 
 [source](https://github.com/BurntSushi/ripgrep)
