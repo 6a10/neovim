@@ -1,7 +1,7 @@
 -- Default configurations for nvim.
 
 -- Colors and feel.
-vim.opt.backspace = '1'
+vim.opt.backspace = '2'
 vim.opt.showcmd = true
 vim.opt.laststatus = 2
 vim.opt.autowrite = true
